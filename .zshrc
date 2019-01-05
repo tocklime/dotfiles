@@ -7,4 +7,5 @@ if ! zgen saved; then
 
 fi
 
+export PATH="${HOME}/.config/scripts:$PATH"
 alias config='/usr/bin/git --git-dir=/home/greg/.cfg/ --work-tree=/home/greg'

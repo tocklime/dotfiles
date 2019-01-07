@@ -1,0 +1,2 @@
+#!/bin/bash
+youtube-dl -f best -g $1 |xargs mpv

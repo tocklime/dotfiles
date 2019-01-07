@@ -1,3 +1,6 @@
 [submodule "/home/greg/.zgen"]
 	path = /home/greg/.zgen
 	url = https://github.com/tarjoilija/zgen.git
+[submodule ".config/dein/repos/github.com/Shougo/dein.vim"]
+	path = .config/dein/repos/github.com/Shougo/dein.vim
+	url = https://github.com/Shougo/dein.vim

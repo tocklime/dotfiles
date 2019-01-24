@@ -9,6 +9,7 @@ if dein#load_state('~/.config/dein')
 
   call dein#add('~/.config/dein/repos/github.com/Shougo/dein.vim')
   call dein#add('Shougo/deoplete.nvim')
+  call dein#add('sbdchd/neoformat')
   call dein#add('neovimhaskell/haskell-vim.git')
   if !has('nvim')
     call dein#add('roxma/nvim-yarp')
@@ -39,4 +40,11 @@ let g:haskell_indent_where = 6
 let g:haskell_indent_after_bare_where = 2
 let g:haskell_indent_in = 1
 let g:haskell_indent_guard = 2
+
+let g:neoformat_haskell_stylishhaskell = {
+		\ 'exe': 'stack',
+		\ 'stdin': 1,
+		\ 'args': ['exec','--', 'stylish-haskell'],
+		\ }
+
 
